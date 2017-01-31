@@ -93,7 +93,7 @@ html[xmlns] .flexslider .slides {
   -moz-user-select: none;
 }
 .flex-viewport {
-  max-height: 2000px;
+  max-height: 100vh;
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -ms-transition: all 1s ease;
@@ -264,6 +264,9 @@ html[xmlns] .flexslider .slides {
  * RESPONSIVE
  * ====================================================================================================================*/
 @media screen and (max-width: 860px) {
+  .flexslider {
+  margin: 40px 0 0 84px;
+
   .flex-direction-nav .flex-prev {
     opacity: 1;
     left: 10px;
@@ -272,4 +275,15 @@ html[xmlns] .flexslider .slides {
     opacity: 1;
     right: 10px;
   }
+
+  .flexslider .slides img {
+  width: 324px;
 }
+
+.flexslider .slides img {
+  height: 216px;
+}
+}
+
+
+
