@@ -49,7 +49,7 @@
   -webkit-backface-visibility: hidden;
 }
 .flexslider .slides img {
-  width: 100%;
+  width: 1080px;
   display: block;
 }
 .flexslider .slides:after {
@@ -89,7 +89,7 @@ html[xmlns] .flexslider .slides {
   zoom: 1;
 }
 .flexslider .slides img {
-  height: 100vh;
+  height: 720px;
   -moz-user-select: none;
 }
 .flex-viewport {
