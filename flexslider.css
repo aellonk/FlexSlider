@@ -49,7 +49,7 @@
   -webkit-backface-visibility: hidden;
 }
 .flexslider .slides img {
-  width: 1080px;
+  width: 100%;
   display: block;
 }
 .flexslider .slides:after {
@@ -73,8 +73,9 @@ html[xmlns] .flexslider .slides {
  * DEFAULT THEME
  * ====================================================================================================================*/
 .flexslider {
-  margin: 0 0 0;
+  margin: 0 0 60px;
   background: #fff;
+  border: 4px solid #fff;
   position: relative;
   zoom: 1;
   -webkit-border-radius: 4px;
@@ -89,11 +90,11 @@ html[xmlns] .flexslider .slides {
   zoom: 1;
 }
 .flexslider .slides img {
-  height: 720px;
+  height: auto;
   -moz-user-select: none;
 }
 .flex-viewport {
-  max-height: 100%;
+  max-height: 2000px;
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -ms-transition: all 1s ease;
@@ -204,7 +205,6 @@ html[xmlns] .flexslider .slides {
   zoom: 1;
   *display: inline;
 }
-/*
 .flex-control-paging li a {
   width: 11px;
   height: 11px;
@@ -230,8 +230,6 @@ html[xmlns] .flexslider .slides {
   background: rgba(0, 0, 0, 0.9);
   cursor: default;
 }
-
-*/
 .flex-control-thumbs {
   margin: 5px 0 0;
   position: static;
@@ -264,11 +262,8 @@ html[xmlns] .flexslider .slides {
 }
 /* ====================================================================================================================
  * RESPONSIVE
- * ====================================================================================================================
+ * ====================================================================================================================*/
 @media screen and (max-width: 860px) {
-  .flexslider {
-  margin: 40px 0 0 84px;
-
   .flex-direction-nav .flex-prev {
     opacity: 1;
     left: 10px;
@@ -277,15 +272,4 @@ html[xmlns] .flexslider .slides {
     opacity: 1;
     right: 10px;
   }
-
-  .flexslider .slides img {
-  width: 324px;
 }
-
-.flexslider .slides img {
-  height: 216px;
-}
-}
-
-
-
