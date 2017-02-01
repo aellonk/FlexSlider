@@ -47,6 +47,7 @@
 .flexslider .slides > li {
   display: none;
   -webkit-backface-visibility: hidden;
+  background-color: #ffffff;
 }
 .flexslider .slides img {
   width: 100%;
